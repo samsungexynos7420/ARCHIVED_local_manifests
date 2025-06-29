@@ -2,20 +2,20 @@
 
 <manifest>
     <!--Device Trees-->
-    <project path="device/samsung/universal7420-common" name="samsungexynos7420/android_device_samsung_universal7420-common" remote="github" revision="lineage-18.1-EQ1" />
-    <project path="device/samsung/zerofltexx" name="samsungexynos7420/android_device_samsung_zerofltexx" remote="github" revision="lineage-18.1-EQ1" />
-    <project path="device/samsung/zeroltexx" name="samsungexynos7420/android_device_samsung_zeroltexx" remote="github" revision="lineage-18.1-EQ1" />
+    <project path="device/samsung/universal7420-common" name="samsungexynos7420/ARCHIVED_android_device_samsung_universal7420-common" remote="github" revision="lineage-18.1-EQ1" />
+    <project path="device/samsung/zerofltexx" name="samsungexynos7420/ARCHIVED_android_device_samsung_zerofltexx" remote="github" revision="lineage-18.1-EQ1" />
+    <project path="device/samsung/zeroltexx" name="samsungexynos7420/ARCHIVED_android_device_samsung_zeroltexx" remote="github" revision="lineage-18.1-EQ1" />
 
     <!--Kernel-->
-    <project path="kernel/samsung/universal7420" name="samsungexynos7420/android_kernel_samsung_universal7420" remote="github" revision="lineage-18.1-EQ1" />
+    <project path="kernel/samsung/universal7420" name="samsungexynos7420/ARCHIVED_android_kernel_samsung_universal7420" remote="github" revision="lineage-18.1-EQ1" />
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung" name="samsungexynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1-EQ1" />
+    <project path="vendor/samsung" name="samsungexynos7420/ARCHIVED_proprietary_vendor_samsung" remote="github" revision="EQ1" />
 	
     <!-- Hardware -->
-    <project path="hardware/samsung" name="samsungexynos7420/android_hardware_samsung" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos" name="samsungexynos7420/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos5" name="samsungexynos7420/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/openmax" name="samsungexynos7420/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos7420" name="samsungexynos7420/android_hardware_samsung_slsi_exynos7420" remote="github" revision="lineage-18.1" />
+    <project path="hardware/samsung" name="samsungexynos7420/android_hardware_samsung" remote="github" revision="lineage-18.1-old" />
+    <project path="hardware/samsung_slsi/exynos" name="samsungexynos7420/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1-old" />
+    <project path="hardware/samsung_slsi/exynos5" name="samsungexynos7420/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1-old" />
+    <project path="hardware/samsung_slsi/openmax" name="samsungexynos7420/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1-old" />
+    <project path="hardware/samsung_slsi/exynos7420" name="samsungexynos7420/android_hardware_samsung_slsi_exynos7420" remote="github" revision="lineage-18.1-old" />
 </manifest>
